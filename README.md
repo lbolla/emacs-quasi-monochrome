@@ -16,5 +16,5 @@ Use `M-x customize-themes` to activate it, or put the following in your Emacs co
 
 
 ## Screenshots
-![](https://raw.github.com/lbolla/emacs-quasi-monochrome-theme/master/screenshot1.png)
-![](https://raw.github.com/lbolla/emacs-quasi-monochrome-theme/master/screenshot2.png)
+![](https://raw.githubusercontent.com/lbolla/emacs-quasi-monochrome/master/screenshot1.png)
+![](https://raw.githubusercontent.com/lbolla/emacs-quasi-monochrome/master/screenshot2.png)
