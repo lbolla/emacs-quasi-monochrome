@@ -1,5 +1,33 @@
+;;; quasi-monochrome-theme.el --- High contrast quasi monochrome color theme
+
+;; Copyright (C) 2015 Lorenzo Bolla
+
+;; Author: Lorenzo Bolla <lbolla@gmail.com>
+;; URL: https://github.com/lbolla/emacs-quasi-monochrome
+;; Created: 28th July 2015
+;; Keywords: color-theme, monochrome, high contrast
+
+;; This file is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published
+;; by the Free Software Foundation, either version 3 of the License,
+;; or (at your option) any later version.
+
+;; This file is distributed in the hope that it will be useful, but
+;; WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this file.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+
+;; A high contrast quasi-monochrome color theme.
+
+;;; Code:
+
 (deftheme quasi-monochrome
-  "Created 2015-07-28.")
+  "quasi-monochrome emacs theme")
 
 (custom-theme-set-faces
  'quasi-monochrome
@@ -47,4 +75,12 @@
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch))))))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list
+   'custom-theme-load-path
+   (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'quasi-monochrome)
+
+;;; quasi-monochrome-theme.el ends here
