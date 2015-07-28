@@ -5,6 +5,7 @@
 ;; Author: Lorenzo Bolla <lbolla@gmail.com>
 ;; URL: https://github.com/lbolla/emacs-quasi-monochrome
 ;; Created: 28th July 2015
+;; Version: 1.0
 ;; Keywords: color-theme, monochrome, high contrast
 
 ;; This file is free software: you can redistribute it and/or modify
