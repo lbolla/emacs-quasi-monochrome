@@ -39,6 +39,7 @@
  '(escape-glyph ((t (:foreground "light gray"))))
  '(minibuffer-prompt ((t (:weight bold :foreground "light gray"))))
  '(highlight ((t (:background "gray20"))))
+ '(hl-line ((t (:background "grey20"))))
  '(region ((t (:foreground "black" :background "gold"))))
  '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
  '(secondary-selection ((t (:background "gray15"))))
