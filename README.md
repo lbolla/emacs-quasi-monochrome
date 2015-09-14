@@ -1,5 +1,7 @@
 emacs-afternoon-theme
 =====================
+[![MELPA](http://melpa.org/packages/quasi-monochrome-theme-badge.svg)](http://melpa.org/#/quasi-monochrome-theme)
+
 
 Dark color theme with a black background, high contrast and few colours.
 
