@@ -1,5 +1,5 @@
-emacs-afternoon-theme
-=====================
+Quasi Monochrome Theme
+======================
 [![MELPA](http://melpa.org/packages/quasi-monochrome-theme-badge.svg)](http://melpa.org/#/quasi-monochrome-theme)
 
 
