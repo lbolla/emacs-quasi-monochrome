@@ -41,12 +41,6 @@
   :type 'boolean
   :group 'quasi-monochrome-theme)
 
-(defun true-color-p ()
-  "Return non-nil on displays that support 256 colors."
-  (or
-   (display-graphic-p)
-   (= (tty-display-color-cells) 16777216)))
-
 (defvar quasi-monochrome-selected-window nil
   "Selected window.")
 
