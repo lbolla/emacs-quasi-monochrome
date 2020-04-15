@@ -8,7 +8,6 @@
 ;; Version: 1.0
 ;; Keywords: color-theme, monochrome, high contrast
 ;; Package: quasi-monochhrome-theme
-;; Package-Requires: ((evil "1.2") (flycheck "29"))
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -322,7 +321,6 @@
 (defun quasi-monochrome-setup-modeline-format ()
   "Setup the mode-line format for quasimonochrome.  Inspired by quasi-monochrome."
   (interactive)
-  (require 'flycheck)
   (setq-default mode-line-format
                 `("%e"
                   mode-line-front-space
